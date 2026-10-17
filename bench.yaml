@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/htfab/ttgf0p2-rotfpga
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf0p2
+  slot: tt_um_htfab_rotfpga2
+  project: ROTFPGA v2
+  size: 1x2
+  kind: digital (Verilog)
+  commit: 7630b665afe87939e83a30a189676ace14aeb13f
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf0p2/tt_um_htfab_rotfpga2
+  branch: tapeout/tinytapeout/ttgf0p2/tt_um_htfab_rotfpga2
+  page: https://app.tinytapeout.com/shuttles/ttgf0p2
+generated: '2026-10-17T23:48:52Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf0p2/tt_um_htfab_rotfpga2
+- upstream/main
